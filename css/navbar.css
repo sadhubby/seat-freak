@@ -5,7 +5,6 @@
     border: 1px;
     display: flex;
     flex-direction: row;;
-    margin-bottom: 50px;
     align-items: center;
 }
 .navbar > .icon-logo-container{
@@ -34,8 +33,9 @@
 
 .text-choice-container > .text-choice{
     color:#2f5365;
-    margin-left: 20px;
-    margin-right: 20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin: 50px;
     letter-spacing: 0.2rem;
 }
 
@@ -44,5 +44,26 @@
     align-items: center;
     justify-content: flex-end;
     color:#2f5365;
-    /* letter-spacing: 0.2rem; */
+
+}
+
+/* navbar links */
+.a-header{
+    color: #0f191f;
+    text-decoration:none;
+}
+.a-header :link{
+    color: #0f191f;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-header :visited{
+    color: #0f191f;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-header :hover{
+    color: #9e4c99;
+    background-color: transparent;
+    text-decoration: dotted;
 }

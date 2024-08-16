@@ -1,0 +1,21 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.freak-tainer{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
+.freak-word{
+    font-size: 72px;
+    background: -webkit-linear-gradient(#b390cb,#2f5365);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-style: italic;
+}
