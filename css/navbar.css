@@ -1,0 +1,48 @@
+
+.navbar{
+    margin-left: 0;
+    margin-right: 0;
+    border: 1px;
+    display: flex;
+    flex-direction: row;;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.navbar > .icon-logo-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 0;
+}
+.icon-logo-container > .icon-logo{
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-logo > .logo{
+    width: 175px;
+}
+
+.navbar > .text-choice-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    justify-content: center;
+}
+
+.text-choice-container > .text-choice{
+    color:#2f5365;
+    margin-left: 20px;
+    margin-right: 20px;
+    letter-spacing: 0.2rem;
+}
+
+.login-logout-choice-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color:#2f5365;
+    /* letter-spacing: 0.2rem; */
+}
