@@ -5,7 +5,8 @@
         <link rel ="stylesheet" href="css/home-page.css">
         <link rel ="stylesheet" href="css/navbar.css">
         <link rel ="stylesheet" href="css/body-and-text.css">
-        <link href='https://fonts.googleapis.com/css?family=Yantramanav:700|Yantramanav:400'' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Yantramanav:700|Yantramanav:400' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Playwrite%20HR:700|Playwrite%20HR:400' rel = 'stylesheet'>
     </head>
 
     <body>
@@ -13,7 +14,7 @@
         <div class = "navbar">
             <div class = "icon-logo-container">
                 <div class = "icon-logo">
-                    <img class = "logo" src="seat-freak.png">
+                    <img class = "logo" src="images/seat-freak.png">
                 </div> 
             </div>
             <div class = "text-choice-container">
@@ -41,12 +42,76 @@
         <a href="seating-reservation.html">Seating Reservation</a><br> -->
         <!-- main body -->
         <div class = "main-body">
-            <h1>Seat Freak</h1>
+            <div class = "logo-container">
+                <div class = "logo">
+                    <img class = "logo-size" src="images/seat-freak.png">
+                </div> 
+            </div>
             <div class = "freak-tainer">
-                <h4>Get a seat that matches your..</h4> 
+                <h4>Get a seat that matches your    </h4> 
                 <div class = "freak-word">
-                    <h4> freak</h4>
+                    <h4> <i>freak</i></h4>
                 </div>
+            </div>
+            <!-- down icon -->
+            <div class = "down-icon"> 
+                <!-- when this is pressed, animation going downward. -->
+                <img src = "images/icons8-arrow-down-100.png">
+            </div>
+
+            <!--  div for movies -->
+            <!-- image, then title sa baba, hover over the image, zoom in or show a few more details -->
+            <!-- the image or title would redirect to the movie information-->
+
+            <div class = "movies-container">
+                <div class = "movies-header">
+                    <h1>
+                        MOVIES
+                    </h1>
+                </div>
+                <!-- line segment -->
+                <hr>
+                <!-- line segment -->
+                <div class = "movie-row">
+                    <!-- make each a column but this should be fully good na
+                    . so make a div for flex column to allow name + movie poster -->
+                    <div class = "movie-and-title">
+                        <img src = "images/bladerunner_poster.jpg">
+                        <h5>Blade Runner 2049</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/lalaland_poster.jpg">
+                        <h5>La La Land</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/drive_poster.jpg">
+                        <h5>Drive</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/fall guy_poster.jpg">
+                        <h5>Fall Guy</h5>
+                    </div>
+                </div>
+
+                <div class = "movie-row">
+                    <div class = "movie-and-title">
+                        <img src = "images/atsv_poster.jpg">
+                        <h5>Spider Man: Across the Spider-Verse</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/itsv_poster.jpg">
+                        <h5>Spider Man: Into the Spider-Verse</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/AP_poster.jpg">
+                        <h5>American Psycho</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/barbie_poster.jpg">
+                        <h5>Barbie</h5>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </body>
