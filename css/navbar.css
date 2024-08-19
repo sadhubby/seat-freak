@@ -31,12 +31,13 @@
     justify-content: center;
 }
 
-.text-choice-container > .text-choice{
+.text-choice-container > .text-choice h5{
     color:#2f5365;
     /* margin-left: 20px;
     margin-right: 20px; */
     margin: 50px;
     letter-spacing: 0.2rem;
+    font-weight: 200;
 }
 
 .login-logout-choice-container{
