@@ -101,7 +101,7 @@ hr {
 .movie-and-title > img{
     width:300px;
     height:500px;
-    object-fit: cover;
+    object-fit: fill;
 }
 .movie-and-title > h5{
 
@@ -113,5 +113,8 @@ hr {
     white-space: normal;
     overflow: visible;
     height: 2.5em;
+}
 
+.cinemas-container{
+    
 }
