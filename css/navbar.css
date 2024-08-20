@@ -18,7 +18,9 @@
     align-items: center;
     justify-content: center;
 }
-
+.icont-logo > a{
+    width: 175px;
+}
 .icon-logo > .logo{
     width: 175px;
 }
@@ -67,4 +69,15 @@
     color: #9e4c99;
     background-color: transparent;
     text-decoration: dotted;
+}
+
+.icon-logo a {
+    display: inline-block;
+}
+
+.icon-logo img {
+    width: 175px;
+    height: auto;
+    /* Prevent the image from enlarging */
+    transition: none;
 }
