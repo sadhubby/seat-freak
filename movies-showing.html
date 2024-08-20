@@ -21,15 +21,20 @@
         <div class = "navbar">
             <div class = "icon-logo-container">
                 <div class = "icon-logo">
-                    <img class = "logo" src="images/seat-freak.png">
+                    <a href = "home-page.html">
+                        <img class = "logo" src="images/seat-freak.png">
+                    </a>
                 </div> 
             </div>
             <div class = "text-choice-container">
                 <div class = "text-choice">
-                    <a class = "a-header" href = "cinemas.html"><h5><b>CINEMAS</b></h5></a>
+                    <a class = "a-header" href = "home-page.html"><h5><b>HOME</b></h5></a>
                 </div>
                 <div class = "text-choice">
-                    <a class = "a-header" href = "gosling-section.html"><h5><b>GOSLING SPECIAL</b></h5></a>
+                    <a class = "a-header" href = "movies-showing.html"><h5><b>MOVIES</b></h5></a>
+                </div>
+                <div class = "text-choice">
+                    <a class = "a-header" href = "cinemas.html"><h5><b>CINEMAS</b></h5></a>
                 </div>
                 <div class = "text-choice">
                     <a class = "a-header" href = "about.html"><h5><b>ABOUT US</b></h5></a>
@@ -40,6 +45,137 @@
                 <a class = "a-header" href = "login.html"><h4><b>Login</b></h4></a>
             </div>
         </div>
+
+        <div class = "main-body">
+            <!--  div for movies -->
+            <!-- image, then title sa baba, hover over the image, zoom in or show a few more details -->
+            <!-- the image or title would redirect to the movie information-->
+            <h4>Search for movies current and upcoming.</h4>
+            <form id = "search-movies" role = "search" method = "POST">
+                <input type="text" id = "query" name = "q" placeholder="Search...">
+                <button type = "submit">Search</button>
+            </form>
+            <div class = "gosling-special-container">
+                <button class = "gosling-special-btn"><h5><a href = "gosling-section.html">Check out the Gosling Specials</a></h5></button>
+            </div>
+            
+            <div class = "available-movies-container" id = "movies-container">
+                <div class = "movies-header">
+                    <h1>
+                        CURRENTLY SHOWING
+                    </h1>
+                </div>
+                <!-- line segment -->
+                <hr>
+                <!-- line segment -->
+                <div class = "movie-row">
+                    <!-- make each a column but this should be fully good na
+                    . so make a div for flex column to allow name + movie poster -->
+                    <div class = "movie-and-title">
+                        <a href = "bladerunner.html">
+                            <img src = "images/bladerunner_poster.jpg">
+                        </a>
+                        <h5><a href = "bladerunner.html">Blade Runner 2049</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "lalaland.html">
+                            <img src = "images/lalaland_poster.jpg">
+                        </a>
+                        <h5><a href = "lalaland.html">La La Land</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "drive.html">
+                            <img src = "images/drive_poster.jpg">
+                        </a>
+                        <h5><a href = "drive.html">Drive</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "fallguy.html">
+                            <img src = "images/fall guy_poster.jpg">
+                        </a>
+                        <h5><a href = "fallguy.html">Fall Guy</a></h5>
+                    </div>
+                </div>
+
+                <div class = "movie-row">
+                    <div class = "movie-and-title">
+                        <a href = "atsv.html">
+                        <img src = "images/atsv_poster.jpg">
+                        </a>
+                        <h5><a href = "atsv.html">Spider Man: Across the Spider-Verse</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "itsv.html">
+                        <img src = "images/itsv_poster.jpg">
+                        </a>
+                        <h5><a href = "itsv.html">Spider Man: Into the Spider-Verse</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "americanpsycho.html">
+                        <img src = "images/AP_poster.jpg">
+                        </a>
+                        <h5><a href = "americanpsycho.html">American Psycho</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "barbie.html">
+                        <img src = "images/barbie_poster.jpg">
+                        </a>
+                        <h5><a href = "barbie.html">Barbie</a></h5>
+                    </div>
+                </div>
+            </div>
+            <div class = "not-available-movies-container">
+                <div class = "movies-header">
+                    <h1>
+                        UPCOMING 
+                    </h1>
+                </div>
+                <!-- line segment -->
+                <hr>
+                <!-- line segment -->
+                <div class = "movie-row">
+                    <!-- make each a column but this should be fully good na
+                    . so make a div for flex column to allow name + movie poster -->
+                    <div class = "movie-and-title">
+                        <img src = "images/bladerunner_poster.jpg">
+                        <h5>Blade Runner 2049</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/lalaland_poster.jpg">
+                        <h5>La La Land</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/drive_poster.jpg">
+                        <h5>Drive</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/fall guy_poster.jpg">
+                        <h5>Fall Guy</h5>
+                    </div>
+                </div>
+
+                <div class = "movie-row">
+                    <div class = "movie-and-title">
+                        <img src = "images/atsv_poster.jpg">
+                        <h5>Spider Man: Across the Spider-Verse</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/itsv_poster.jpg">
+                        <h5>Spider Man: Into the Spider-Verse</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/AP_poster.jpg">
+                        <h5>American Psycho</h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <img src = "images/barbie_poster.jpg">
+                        <h5>Barbie</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
     </body>
 
 </html>

@@ -1,0 +1,153 @@
+/* add main body css here */
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.available-movies-container{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.not-available-movies-container{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+hr {
+    width: 100%;
+    display: block;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.available-movies-container > .movies-header > h1{
+    margin-top: 0px;
+    margin-bottom: -20px;
+
+}
+.not-available-movies-container > .movies-header > h1{
+    margin-top: 0px;
+    margin-bottom: -20px;
+
+}
+
+.available-movies-container > .movie-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.not-available-movies-container > .movie-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.movie-row > img{
+    width: 300px;
+    height: 500px;
+}
+
+.movie-and-title{
+    display:flex;
+    flex-direction: column;
+    text-align: justify;
+    margin-right: 5px;
+}
+.movie-and-title > img{
+    width:300px;
+    height:500px;
+    object-fit: fill;
+}
+.movie-and-title > h5{
+
+    margin: 0;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+    white-space: normal;
+    overflow: visible;
+    height: 2.5em;
+}
+
+.movie-and-title a {
+    text-decoration: none; 
+    padding: 0;
+    margin: 0; 
+    border: none; 
+    line-height: 0;
+    color:inherit;
+}
+
+.movie-and-title a:hover{
+    color:#9e4c99;
+    text-decoration: none;
+}
+
+.movie-and-title a img {
+    width: 300px; /* Ensure the width remains consistent */
+    height: 500px; /* Ensure the height remains consistent */
+    object-fit: fill; /* Maintain the aspect ratio */
+}
+
+
+
+.gosling-special-container{
+    margin-top: 10px;
+}
+
+.gosling-special-container > .gosling-special-btn{
+    border:none;
+    border-radius:5px;
+    background-color:#2f5365;
+    font-family: "Yantramanav";
+    width:100%;
+    color: ghostwhite;
+    transition: background-color 0.3s ease, padding 0.3s ease;
+    outline:none;
+    padding:3px;
+    box-sizing: border-box;
+
+}
+.gosling-special-btn > h5{
+    border:none;
+    border-radius:5px;
+    margin: 0;
+    padding:3;
+}
+.gosling-special-btn > h5 a{
+    border:none;
+    border-radius:5px;
+    color: ghostwhite;
+    text-decoration: none;
+    padding:0;
+}
+.gosling-special-btn :hover{
+    background-color: #b390cb;
+}
+.gosling-special-btn :hover h5 a{
+    color:ghostwhite;
+    text-decoration: none;
+}
+.gosling-special-container :hover{
+    border:none;
+    border-radius:5px;
+    background-color: #b390cb;
+    
+}
