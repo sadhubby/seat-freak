@@ -114,3 +114,35 @@ hr {
     overflow: visible;
     height: 2.5em;
 }
+
+.movie-and-title > h5{
+
+    margin: 0;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    text-align: justify;
+    white-space: normal;
+    overflow: visible;
+    height: 2.5em;
+}
+
+.movie-and-title a {
+    text-decoration: none; 
+    padding: 0;
+    margin: 0; 
+    border: none; 
+    line-height: 0;
+    color:inherit;
+}
+
+.movie-and-title a:hover{
+    color:#9e4c99;
+    text-decoration: none;
+}
+
+.movie-and-title a img {
+    width: 300px; /* Ensure the width remains consistent */
+    height: 500px; /* Ensure the height remains consistent */
+    object-fit: fill; /* Maintain the aspect ratio */
+}

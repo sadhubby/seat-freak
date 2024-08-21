@@ -1,0 +1,104 @@
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-container{
+    display:flex;
+    flex-direction: row;
+    align-self: center;
+    gap:10px;
+    justify-content: center;
+}
+
+.movie-container > .movie-description-section{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(276, 36%, 68%, 20%);
+    width:300px;
+    height:500px;
+    border-radius: 1rem;
+    padding: 2em;
+    position: anchor;
+    /* box-sizing: border-box; */
+    /* padding-right:16px; */
+}
+.movie-description-section > h4{
+    margin:0;
+    word-spacing: 10px;;
+}
+.movie-description-section > h5{
+    margin:0;
+}
+.movie-description-section > ul{
+    margin:0;
+}
+.synopsis-container{
+    width:100%;
+    overflow-y:auto;
+    padding-right: 15px;
+    word-wrap: break-word;
+    overflow-wrap:break-word;
+    text-align: left;
+    height: 275px;
+}
+.synopsis-container > p{
+    font-weight: 1000px;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.1rem;
+    margin:0;
+}
+.movie-poster{
+    margin:0;
+    width:300px;
+    height: 500px;
+    padding: 2em;
+    position: relative;
+}
+.movie-poster > img{
+    width:100%;
+    height: 100%;
+    border-radius: 1rem;
+    border:none;
+    top: 0em;;
+    left: 0em;
+    position: absolute;
+}
+.synopsis-container > h5 {
+    
+    margin-top:25px;
+    margin-bottom:0;
+    padding:0;
+}
+
+.get-a-seat-container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.get-a-seat-btn-real{
+    position: anchor;
+    width:100%;
+    background-color: #2f5365;
+    border:none;
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    border-radius:10px;
+    padding:10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.a-btn {
+    width:100%;
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a-btn :hover{
+    background-color:#9e4c99;
+}
