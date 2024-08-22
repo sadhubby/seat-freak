@@ -96,7 +96,7 @@
 .a-btn {
     width:100%;
     color: white;
-    background-color: transparent;
+    /* background-color: transparent; */
     text-decoration: none;
 }
 .a-btn :hover{
