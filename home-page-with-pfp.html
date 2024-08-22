@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel ="stylesheet" href="css/home-page.css">
+        <link rel ="stylesheet" href="css/navbar.css">
+        <link rel ="stylesheet" href="css/body-and-text.css">
+        <link href='https://fonts.googleapis.com/css?family=Yantramanav:700|Yantramanav:400' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Playwrite%20HR:700|Playwrite%20HR:400' rel = 'stylesheet'>
+    </head>
+
+    <body>
+        <!-- header / navigation bar -->
+        <div class = "navbar">
+            <div class = "icon-logo-container">
+                <div class = "icon-logo">
+                    <a href = "home-page.html">
+                        <img class = "logo" src="images/seat-freak.png">
+                    </a>
+                </div> 
+            </div>
+            <div class = "text-choice-container">
+                <div class = "text-choice">
+                    <a class = "a-header" href = "home-page.html"><h5><b>HOME</b></h5></a>
+                </div>
+                <div class = "text-choice">
+                    <a class = "a-header" href = "movies-showing.html"><h5><b>MOVIES</b></h5></a>
+                </div>
+                <div class = "text-choice">
+                    <a class = "a-header" href = "cinemas.html"><h5><b>CINEMAS</b></h5></a>
+                </div>
+                <div class = "text-choice">
+                    <a class = "a-header" href = "about.html"><h5><b>ABOUT US</b></h5></a>
+                </div>
+                <!-- <div class = "text-choice"> -->
+                    <!-- empty -->
+                <!-- </div> -->
+            </div>
+            <!-- <div class = "login-logout-choice-container">
+                <a class = "a-header" href = "login.html"><h4><b>Login</b></h4></a>
+            </div> -->
+            <!-- add the pfp here -->
+            <div class = "pfp-image-container">
+                <img src = "images/vergilpfp.jpg">
+            </div>
+        </div>
+        <!-- <a href="logout.html">Logout</a><br>
+        <a href="movies-showing.html">Movies Showing</a><br>
+        <a href="search-movies.html">Search Movies</a><br>
+        <a href="seating-reservation.html">Seating Reservation</a><br> -->
+        <!-- main body -->
+        <div class = "main-body">
+            <div class = "logo-container">
+                <div class = "logo">
+                    <img class = "logo-size" src="images/seat-freak.png" >
+                </div> 
+            </div>
+            <div class = "freak-tainer">
+                <h4>Get a seat that matches your    </h4> 
+                <div class = "freak-word">
+                    <h4> <i>freak</i></h4>
+                </div>
+            </div>
+            <!-- down icon -->
+            <div class = "down-icon"> 
+                <!-- when this is pressed, animation going downward. -->
+                <a href = "#movies-container" target="_self">
+                <img src = "images/icons8-arrow-down-100.png">
+                </a>
+            </div>
+
+            <!--  div for movies -->
+            <!-- image, then title sa baba, hover over the image, zoom in or show a few more details -->
+            <!-- the image or title would redirect to the movie information-->
+
+            <div class = "movies-container" id = "movies-container">
+                <div class = "movies-header">
+                    <h1>
+                        CURRENTLY SHOWING
+                    </h1>
+                </div>
+                <!-- line segment -->
+                <hr>
+                <!-- line segment -->
+                <div class = "movie-row">
+                    <!-- make each a column but this should be fully good na
+                    . so make a div for flex column to allow name + movie poster -->
+                    <div class = "movie-and-title">
+                        <a href = "bladerunner.html">
+                            <img src = "images/bladerunner_poster.jpg">
+                        </a>
+                        <h5><a href = "bladerunner.html">Blade Runner 2049</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "lalaland.html">
+                            <img src = "images/lalaland_poster.jpg">
+                        </a>
+                        <h5><a href = "lalaland.html">La La Land</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "drive.html">
+                            <img src = "images/drive_poster.jpg">
+                        </a>
+                        <h5><a href = "drive.html">Drive</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "fallguy.html">
+                            <img src = "images/fall guy_poster.jpg">
+                        </a>
+                        <h5><a href = "fallguy.html">Fall Guy</a></h5>
+                    </div>
+                </div>
+
+                <div class = "movie-row">
+                    <div class = "movie-and-title">
+                        <a href = "atsv.html">
+                            <img src = "images/atsv_poster.jpg">
+                        </a>
+                        <h5><a href = "atsv.html">Spider Man: Across the Spider-Verse</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "itsv.html">
+                            <img src = "images/itsv_poster.jpg">
+                        </a>
+                        <h5><a href = "itsv.html">Spider Man: Into the Spider-Verse</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "americanpsycho.html">
+                            <img src = "images/AP_poster.jpg">
+                        </a>
+                        <h5><a href = "americanpsycho.html">American Psycho</a></h5>
+                    </div>
+                    <div class = "movie-and-title">
+                        <a href = "barbie.html">
+                            <img src = "images/barbie_poster.jpg">
+                        </a>
+                        <h5><a href = "barbie.html">Barbie</a></h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
