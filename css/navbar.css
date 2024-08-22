@@ -81,3 +81,19 @@
     /* Prevent the image from enlarging */
     transition: none;
 }
+
+.pfp-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.pfp-image-container > img{
+    width:80px;
+    height:80px;
+    border-radius: 60px;
+    border: 5px solid #9e4c99;
+    object-fit: cover;
+    
+}
